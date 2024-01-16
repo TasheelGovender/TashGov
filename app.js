@@ -7,4 +7,16 @@ const mobileMenu = () => {
     menuLinks.classList.toggle('active')
 }
 
+const toGames = () => {
+    
+}
+
+const toUtilities = () => {
+
+}
+
+const toAdvanced = () => {
+
+}
+
 menu.addEventListener('click', mobileMenu)
