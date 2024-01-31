@@ -1,22 +1,16 @@
-const menu = document.querySelector('#mobile-menu')
-const menuLinks = document.querySelector('.navbar__menu')
+const menu = document.querySelector("#mobile-menu");
+const menuLinks = document.querySelector(".navbar__menu");
 
 //Display menu
 const mobileMenu = () => {
-    menu.classList.toggle('is-active')
-    menuLinks.classList.toggle('active')
-}
+	menu.classList.toggle("is-active");
+	menuLinks.classList.toggle("active");
+};
 
-const toGames = () => {
-    
-}
+const toGames = () => {};
 
-const toUtilities = () => {
+const toUtilities = () => {};
 
-}
+const toAdvanced = () => {};
 
-const toAdvanced = () => {
-
-}
-
-menu.addEventListener('click', mobileMenu)
+menu.addEventListener("click", mobileMenu);
